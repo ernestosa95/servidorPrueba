@@ -1,7 +1,7 @@
 <?php
 
 $hostname='localhost';
-$database='Proyecto1'; //nombre de la tabla
+$database='relevar'; //nombre de la tabla
 $username='root';
 $password='';
 
