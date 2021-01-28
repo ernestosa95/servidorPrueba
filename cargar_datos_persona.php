@@ -33,5 +33,6 @@ $consulta="insert into datos_persona values('".$COORDENADAS."', '".$FACTORES_DE_
 
 mysqli_query($conexion, $consulta) or die ("Problemas al insertar".mysqli_error($conexion));
 mysqli_close($conexion);
+echo "OK";
 
 ?>
